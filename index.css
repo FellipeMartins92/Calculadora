@@ -1,0 +1,54 @@
+*{
+    margin: 0px;
+}
+
+#fora_calculadora{
+    border: 1px solid black;
+    height: 1000px;
+    width: auto;
+    display: grid;
+    place-content: center;
+}
+
+#calculadora{
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    display: grid;
+    place-content: center;
+    border-radius: 10px;
+}
+
+#botoes_calculadora{
+    display: flex;
+    flex-direction: column;
+}
+
+#tela{
+    height: 50px;
+    border: 1px solid black;
+    display: grid;
+    place-content: center;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.botoes{
+    margin: 2px;
+}
+
+.botoes button{
+    width: 60px;
+    height: 50px;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.botoes button:hover{
+    cursor: pointer;
+}
+
+#zero{
+    width: 188px;
+}

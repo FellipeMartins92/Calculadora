@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js" defer></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <section id="fora_calculadora">
+        <div id="calculadora">
+            <div id="tela"></div>
+            <div id="botoes_calculadora">
+                <div class="botoes">
+                    <button onclick="limpar()">AC</button> 
+                    <button onclick="selecionar_parenteses()">( )</button>
+                    <button onclick="fatorial()">!</button>
+                    <button value="+">+</button>
+                </div>
+                <div class="botoes">
+                    <button value="1">1</button>
+                    <button value="2">2</button>
+                    <button value="3">3</button>
+                    <button value="-">-</button>
+                </div>
+                <div class="botoes">
+                    <button value="4">4</button>
+                    <button value="5">5</button>
+                    <button value="6">6</button>
+                    <button value="*">x</button>
+                </div>
+                <div class="botoes">
+                    <button value="7">7</button>
+                    <button value="8">8</button>
+                    <button value="9">9</button>
+                    <button value="/">/</button>
+                </div>
+                <div class="botoes">
+                    <button value="0" id="zero">0</button>
+                    <button onclick="resultado()">==</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
